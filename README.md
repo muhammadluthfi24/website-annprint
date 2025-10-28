@@ -133,12 +133,5 @@ Below is the main system workflow of ANNPRINT:
 
 ---
 
-## 👨‍💻 Developer
-
-**Muhammad Luthfi Farizqi**  
-Informatics Student @ Universitas Teknokrat Indonesia  
-📧 [admin@admin.com](mailto:admin@admin.com)
-
----
 
 <p align="center">© 2025 ANNPRINT – Fashion Printing Management System</p>
