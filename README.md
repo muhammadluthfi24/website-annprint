@@ -1,28 +1,144 @@
-👕 ANNPRINT – Fashion Printing Management System
+<!-- PROJECT HEADER -->
+<div align="center">
+  <img src="public/images/Diagram%20alur.jpg" alt="Diagram Alur ANNPRINT" width="600">
 
-ANNPRINT adalah aplikasi berbasis Laravel yang digunakan untuk mengelola pemesanan, desain, dan produksi fashion printing.
-Aplikasi ini mempermudah pelanggan maupun admin dalam mengatur data pesanan, katalog desain, serta mencetak laporan secara otomatis.
+  <h1>🧵 ANNPRINT – Fashion Printing Management System</h1>
+  <p>
+    A modern Laravel-based application for managing orders, designs, and production in fashion printing.  
+    Built to simplify order tracking, customer management, and design printing for small to medium-scale fashion businesses.
+  </p>
 
-🚀 Panduan Instalasi
+  <p align="center">
+    <a href="https://github.com/username/annprint"><strong>View on GitHub »</strong></a>  
+    <br><br>
+    <img src="https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+    <img src="https://img.shields.io/badge/PHP-8%2B-777BB4?style=for-the-badge&logo=php&logoColor=white">
+    <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  </p>
+</div>
 
-1.Download dan instal XAMPP serta Composer
-Pastikan Apache dan MySQL sudah terpasang dan berjalan dengan baik di komputer Anda.
+---
 
-2.Ekstrak file project
-Gunakan aplikasi seperti WinRAR untuk mengekstrak file .zip.
+## 🚀 Installation Guide
 
-3.Salin folder project
-Copy folder annprint, lalu paste ke dalam:
-C:\xampp\htdocs\
+Follow the steps below to set up **ANNPRINT** on your local machine:
 
-4.Aktifkan Apache dan MySQL
-Jalankan XAMPP Control Panel, kemudian klik Start pada Apache dan MySQL.
+1. **Install XAMPP and Composer**  
+   Ensure that Apache and MySQL are running properly.
 
-5.Buat database baru di phpMyAdmin
-Buka browser dan akses:
-http://localhost/phpmyadmin
-Buat database baru dengan nama annprint.
+2. **Extract the Project**  
+   Use **WinRAR** or similar software to extract the `.zip` file.
 
-6. Import database aplikasi
-Pilih database annprint yang baru dibuat → tab Import → upload file:
-annprint.sql
+3. **Move the Folder to htdocs**  
+   Copy the folder `annprint` and paste it into:
+   ```
+   C:\xampp\htdocs\
+   ```
+
+4. **Start XAMPP Services**  
+   Run **Apache** and **MySQL** in the XAMPP Control Panel.
+
+5. **Create the Database**  
+   Open:
+   ```
+   http://localhost/phpmyadmin
+   ```
+   Then create a new database named:
+   ```
+   annprint
+   ```
+
+6. **Import the Database File**
+   Go to the **Import** tab in phpMyAdmin → choose:
+   ```
+   annprint.sql
+   ```
+   → Click **Go**.
+
+7. **Serve the Laravel Application**
+   Open the terminal in your project folder, then run:
+   ```bash
+   php artisan serve
+   ```
+
+8. **Access the App**
+   Open your browser and go to:
+   ```
+   http://127.0.0.1:8000
+   ```
+
+9. **Default Admin Login**
+   ```
+   Email    : admin@admin.com
+   Password : admin
+   ```
+
+---
+
+## 🧩 Features
+
+- 👕 Manage Fashion Printing Orders  
+- 🎨 Display Design Catalogs  
+- 👩‍💻 Admin & Customer Dashboard  
+- 📊 Automatic Report Generation  
+- 🔐 User Management (Admin & Customer)
+
+---
+
+## ⚙️ Technology Stack
+
+| Component | Version / Tool |
+|------------|----------------|
+| Framework  | Laravel 10     |
+| Language   | PHP 8+         |
+| Database   | MySQL          |
+| Frontend   | Bootstrap / Tailwind CSS |
+| Server     | Apache (XAMPP) |
+
+---
+
+## 🧾 Environment Configuration
+
+Make sure your `.env` file is set as follows:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=annprint
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 🖼️ System Flow Diagram
+Below is the main system workflow of ANNPRINT:
+> (Image automatically loaded from `/public/images/Diagram alur.jpg`)
+
+![System Flow Diagram](public/images/Diagram%20alur.jpg)
+
+---
+
+## 💡 Notes
+
+- If the database connection fails, check your `.env` configuration.  
+- Make sure Composer dependencies are installed:
+  ```bash
+  composer install
+  ```
+- Run migrations (optional, if needed):
+  ```bash
+  php artisan migrate
+  ```
+
+---
+
+## 👨‍💻 Developer
+
+**Muhammad Luthfi Farizqi**  
+Informatics Student @ Universitas Teknokrat Indonesia  
+📧 [admin@admin.com](mailto:admin@admin.com)
+
+---
+
+<p align="center">© 2025 ANNPRINT – Fashion Printing Management System</p>
