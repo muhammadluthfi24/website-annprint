@@ -129,8 +129,11 @@ Below is the main system workflow of ANNPRINT:
   ```bash
   php artisan migrate
   ```
+<<<<<<< HEAD
 
 ---
 
 
+=======
+>>>>>>> d5fbdb6 (ganti isi readme)
 <p align="center">© 2025 ANNPRINT – Fashion Printing Management System</p>
