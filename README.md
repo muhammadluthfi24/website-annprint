@@ -24,6 +24,7 @@ Follow the steps below to set up **ANNPRINT** on your local machine:
 ```bash
 git clone https://github.com/username/annprint.git
 cd annprint
+  ```
 
 2. **Install XAMPP and Composer**  
    Ensure that Apache and MySQL are running properly.
