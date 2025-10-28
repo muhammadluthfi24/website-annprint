@@ -20,22 +20,25 @@
 
 Follow the steps below to set up **ANNPRINT** on your local machine:
 
-1. **Install XAMPP and Composer**  
+1.**Clone the Repository**
+    git clone https://github.com/username/annprint.git
+cd annprint
+2. **Install XAMPP and Composer**  
    Ensure that Apache and MySQL are running properly.
 
-2. **Extract the Project**  
+3. **Extract the Project**  
    Use **WinRAR** or similar software to extract the `.zip` file.
 
-3. **Move the Folder to htdocs**  
+4. **Move the Folder to htdocs**  
    Copy the folder `annprint` and paste it into:
    ```
    C:\xampp\htdocs\
    ```
 
-4. **Start XAMPP Services**  
+5. **Start XAMPP Services**  
    Run **Apache** and **MySQL** in the XAMPP Control Panel.
 
-5. **Create the Database**  
+6. **Create the Database**  
    Open:
    ```
    http://localhost/phpmyadmin
@@ -45,26 +48,26 @@ Follow the steps below to set up **ANNPRINT** on your local machine:
    annprint
    ```
 
-6. **Import the Database File**
+7. **Import the Database File**
    Go to the **Import** tab in phpMyAdmin → choose:
    ```
    annprint.sql
    ```
    → Click **Go**.
 
-7. **Serve the Laravel Application**
+8. **Serve the Laravel Application**
    Open the terminal in your project folder, then run:
    ```bash
    php artisan serve
    ```
 
-8. **Access the App**
+9. **Access the App**
    Open your browser and go to:
    ```
    http://127.0.0.1:8000
    ```
 
-9. **Default Admin Login**
+10. **Default Admin Login**
    ```
    Email    : admin@admin.com
    Password : admin
