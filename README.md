@@ -1,6 +1,5 @@
 <!-- PROJECT HEADER -->
-<div align="center">
-  <img src="public/images/Diagram%20alur.jpg" alt="Diagram Alur ANNPRINT" width="600">
+
 
   <h1>🧵 ANNPRINT – Fashion Printing Management System</h1>
   <p>
