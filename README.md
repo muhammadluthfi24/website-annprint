@@ -114,6 +114,8 @@ DB_PASSWORD=
 ## 🖼️ System Flow Diagram
 Below is the main system workflow of ANNPRINT:
 > (Image automatically loaded from `/public/images/Diagram alur.jpg`)
+> ![Diagram alur](https://github.com/user-attachments/assets/4ccc9fe6-1981-43ff-8bb8-1d390fa4f2e0)
+
 
 ![System Flow Diagram](public/images/Diagram%20alur.jpg)
 
