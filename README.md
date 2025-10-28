@@ -1,5 +1,6 @@
 <!-- PROJECT HEADER -->
-
+<div align="center">
+  <img src="public/images/Diagram%20alur.jpg" alt="Diagram Alur ANNPRINT" width="600">
 
   <h1>🧵 ANNPRINT – Fashion Printing Management System</h1>
   <p>
@@ -8,7 +9,7 @@
   </p>
 
   <p align="center">
-   
+    <a href="https://github.com/username/annprint"><strong>View on GitHub »</strong></a>  
     <br><br>
     <img src="https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
     <img src="https://img.shields.io/badge/PHP-8%2B-777BB4?style=for-the-badge&logo=php&logoColor=white">
@@ -129,11 +130,4 @@ Below is the main system workflow of ANNPRINT:
   ```bash
   php artisan migrate
   ```
-<<<<<<< HEAD
-
----
-
-
-=======
->>>>>>> d5fbdb6 (ganti isi readme)
 <p align="center">© 2025 ANNPRINT – Fashion Printing Management System</p>
