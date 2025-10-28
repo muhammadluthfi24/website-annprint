@@ -22,7 +22,7 @@ Follow the steps below to set up **ANNPRINT** on your local machine:
 
 1.**Clone the Repository**
 ```bash
-git clone https://github.com/username/annprint.git
+git clone https://github.com/muhammadluthfi24/website-annprint
 cd annprint
   ```
 
